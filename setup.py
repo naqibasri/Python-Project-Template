@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "cnnClassifier" # Repo name at GitHub
-AUTHOR_USER_NAME = "naqib"
+AUTHOR_USER_NAME = "naqibasri"
 SRC_REPO = "cnnClassifier" # Folder name in src folder. Refer file directory
 AUTHOR_EMAIL = "naqib.asri.294@gmail.com"
 
@@ -17,9 +17,9 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for CNN app",
+    description="A small python package for CNN app", # To update
     long_description=long_description,
-    long_description_content="text/markdown",
+    long_description_content="text/markdown", 
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
